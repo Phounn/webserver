@@ -1,0 +1,340 @@
+2024-10-07 15:00:18 [main] INFO  g.la.webserver.WebserverApplication - Starting WebserverApplication using Java 17.0.12 with PID 38848 (C:\Users\NITRO\OneDrive\Desktop\Korea_webserver\Day1\webserver\webserver\build\classes\java\main started by Phounn in C:\Users\NITRO\OneDrive\Desktop\Korea_webserver\Day1\webserver\webserver)
+2024-10-07 15:00:18 [main] DEBUG g.la.webserver.WebserverApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-07 15:00:18 [main] INFO  g.la.webserver.WebserverApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 15:00:19 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-07 15:00:19 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 2 JPA repository interfaces.
+2024-10-07 15:00:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-07 15:00:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:00:19 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-07 15:00:19 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 15:00:19 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-07 15:00:19 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 847 ms
+2024-10-07 15:00:19 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-07 15:00:19 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
+2024-10-07 15:00:19 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-07 15:00:19 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-10-07 15:00:19 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-07 15:00:19 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-07 15:00:19 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-07 15:00:19 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-07 15:00:19 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-07 15:00:20 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-07 15:00:20 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-07 15:00:21 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:00:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 15:00:21 [main] INFO  g.la.webserver.WebserverApplication - Started WebserverApplication in 2.783 seconds (process running for 2.984)
+2024-10-07 15:00:43 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-07 15:00:43 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-07 15:00:43 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-07 15:00:43 [http-nio-8080-exec-1] INFO  g.l.w.user.controller.UserController - call getAllUser
+2024-10-07 15:39:07 [main] INFO  g.la.webserver.WebserverApplication - Starting WebserverApplication using Java 17.0.12 with PID 19916 (C:\Users\NITRO\OneDrive\Desktop\Korea_webserver\Day1\webserver\webserver\build\classes\java\main started by Phounn in C:\Users\NITRO\OneDrive\Desktop\Korea_webserver\Day1\webserver\webserver)
+2024-10-07 15:39:07 [main] DEBUG g.la.webserver.WebserverApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-07 15:39:07 [main] INFO  g.la.webserver.WebserverApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 15:39:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-07 15:39:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
+2024-10-07 15:39:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-07 15:39:09 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:39:09 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-07 15:39:09 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 15:39:09 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-07 15:39:09 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1214 ms
+2024-10-07 15:39:09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-07 15:39:09 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
+2024-10-07 15:39:09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-07 15:39:09 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-10-07 15:39:09 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-07 15:39:09 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-07 15:39:09 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-07 15:39:09 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-07 15:39:09 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-07 15:39:10 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-07 15:39:10 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-07 15:39:11 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-10-07 15:39:11 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:39:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 15:39:11 [main] INFO  g.la.webserver.WebserverApplication - Started WebserverApplication in 3.662 seconds (process running for 3.881)
+2024-10-07 15:39:11 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-07 15:39:11 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-07 15:39:11 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-07 15:43:33 [main] INFO  g.la.webserver.WebserverApplication - Starting WebserverApplication using Java 17.0.12 with PID 34764 (C:\Users\NITRO\OneDrive\Desktop\Korea_webserver\Day1\webserver\webserver\build\classes\java\main started by Phounn in C:\Users\NITRO\OneDrive\Desktop\Korea_webserver\Day1\webserver\webserver)
+2024-10-07 15:43:33 [main] DEBUG g.la.webserver.WebserverApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-07 15:43:33 [main] INFO  g.la.webserver.WebserverApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 15:43:34 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-07 15:43:34 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 2 JPA repository interfaces.
+2024-10-07 15:43:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-07 15:43:34 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:43:34 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-07 15:43:34 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 15:43:34 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-07 15:43:34 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1145 ms
+2024-10-07 15:43:34 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-07 15:43:34 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
+2024-10-07 15:43:34 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-07 15:43:34 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-10-07 15:43:35 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-07 15:43:35 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-07 15:43:35 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-07 15:43:35 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-07 15:43:35 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-07 15:43:35 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-07 15:43:35 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-07 15:43:36 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-10-07 15:43:36 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:43:36 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 15:43:36 [main] INFO  g.la.webserver.WebserverApplication - Started WebserverApplication in 3.69 seconds (process running for 3.955)
+2024-10-07 15:45:37 [main] INFO  g.la.webserver.WebserverApplication - Starting WebserverApplication using Java 17.0.12 with PID 16656 (C:\Users\NITRO\OneDrive\Desktop\Korea_webserver\Day1\webserver\webserver\build\classes\java\main started by Phounn in C:\Users\NITRO\OneDrive\Desktop\Korea_webserver\Day1\webserver\webserver)
+2024-10-07 15:45:37 [main] DEBUG g.la.webserver.WebserverApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-07 15:45:37 [main] INFO  g.la.webserver.WebserverApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 15:45:37 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-07 15:45:37 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+2024-10-07 15:45:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-07 15:45:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:45:38 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-07 15:45:38 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 15:45:38 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-07 15:45:38 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1129 ms
+2024-10-07 15:45:38 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-07 15:45:38 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
+2024-10-07 15:45:38 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-07 15:45:38 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-10-07 15:45:38 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-07 15:45:38 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-07 15:45:38 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-07 15:45:39 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-07 15:45:39 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-07 15:45:39 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-07 15:45:39 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-07 15:45:40 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-10-07 15:45:40 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:45:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 15:45:40 [main] INFO  g.la.webserver.WebserverApplication - Started WebserverApplication in 3.528 seconds (process running for 3.744)
+2024-10-07 15:51:59 [main] INFO  g.la.webserver.WebserverApplication - Starting WebserverApplication using Java 17.0.12 with PID 38008 (C:\Users\NITRO\OneDrive\Desktop\Korea_webserver\Day1\webserver\webserver\build\classes\java\main started by Phounn in C:\Users\NITRO\OneDrive\Desktop\Korea_webserver\Day1\webserver\webserver)
+2024-10-07 15:51:59 [main] DEBUG g.la.webserver.WebserverApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-07 15:51:59 [main] INFO  g.la.webserver.WebserverApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 15:52:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-07 15:52:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2024-10-07 15:52:01 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-07 15:52:01 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:52:01 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-07 15:52:01 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 15:52:01 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-07 15:52:01 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1113 ms
+2024-10-07 15:52:01 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-07 15:52:01 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
+2024-10-07 15:52:01 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-07 15:52:01 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-10-07 15:52:01 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-07 15:52:01 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-07 15:52:01 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-07 15:52:01 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-07 15:52:01 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-07 15:52:02 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-07 15:52:02 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-07 15:52:03 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-10-07 15:52:03 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:52:03 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 15:52:03 [main] INFO  g.la.webserver.WebserverApplication - Started WebserverApplication in 3.515 seconds (process running for 3.737)
+2024-10-07 15:52:56 [main] INFO  g.la.webserver.WebserverApplication - Starting WebserverApplication using Java 17.0.12 with PID 38468 (C:\Users\NITRO\OneDrive\Desktop\Korea_webserver\Day1\webserver\webserver\build\classes\java\main started by Phounn in C:\Users\NITRO\OneDrive\Desktop\Korea_webserver\Day1\webserver\webserver)
+2024-10-07 15:52:56 [main] DEBUG g.la.webserver.WebserverApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-07 15:52:56 [main] INFO  g.la.webserver.WebserverApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 15:52:56 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-07 15:52:56 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
+2024-10-07 15:52:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-07 15:52:57 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:52:57 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-07 15:52:57 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 15:52:57 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-07 15:52:57 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1214 ms
+2024-10-07 15:52:57 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-07 15:52:57 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
+2024-10-07 15:52:57 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-07 15:52:57 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-10-07 15:52:57 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-07 15:52:57 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-07 15:52:57 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-07 15:52:58 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-07 15:52:58 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-07 15:52:58 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-07 15:52:58 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-07 15:52:59 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoints beneath base path '/actuator'
+2024-10-07 15:52:59 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 15:52:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 15:52:59 [main] INFO  g.la.webserver.WebserverApplication - Started WebserverApplication in 3.722 seconds (process running for 3.936)
+2024-10-07 15:52:59 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as ad8b16ba65fe
+2024-10-07 15:52:59 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-07 15:52:59 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-07 15:52:59 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-10-07 16:01:31 [http-nio-8080-exec-6] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 465 ms
+2024-10-07 16:09:14 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/vnd.spring-boot.actuator.v2+json', given [application/vnd.spring-boot.actuator.v2+json, application/vnd.spring-boot.actuator.v1+json, application/json] and supported [*/*]
+2024-10-07 16:09:14 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 204 NO_CONTENT
+2024-10-07 16:09:14 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/actuator/loggers", parameters={}
+2024-10-07 16:09:14 [http-nio-8080-exec-3] DEBUG o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped to Actuator web endpoint 'loggers'
+2024-10-07 16:09:14 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/octet-stream" to []
+2024-10-07 16:09:14 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/vnd.spring-boot.actuator.v2+json', given [application/vnd.spring-boot.actuator.v2+json, application/vnd.spring-boot.actuator.v1+json, application/json] and supported [application/vnd.spring-boot.actuator.v2+json, application/json]
+2024-10-07 16:09:14 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [org.springframework.boot.actuate.logging.LoggersEndpoint$LoggersDescriptor@11a84971]
+2024-10-07 16:09:14 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-07 16:09:14 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - POST "/actuator/loggers/ROOT", parameters={}
+2024-10-07 16:09:14 [http-nio-8080-exec-4] DEBUG o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped to Actuator web endpoint 'loggers-name'
+2024-10-07 16:09:14 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{configuredLevel=INFO}]
+2024-10-07 16:12:46 [main] INFO  g.la.webserver.WebserverApplication - Starting WebserverApplication using Java 17.0.12 with PID 16160 (C:\Users\NITRO\OneDrive\Desktop\Korea_webserver\Day1\webserver\webserver\build\classes\java\main started by Phounn in C:\Users\NITRO\OneDrive\Desktop\Korea_webserver\Day1\webserver\webserver)
+2024-10-07 16:12:46 [main] DEBUG g.la.webserver.WebserverApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-07 16:12:46 [main] INFO  g.la.webserver.WebserverApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 16:12:47 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-07 16:12:47 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces.
+2024-10-07 16:12:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-07 16:12:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 16:12:47 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-07 16:12:47 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 16:12:48 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-07 16:12:48 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1135 ms
+2024-10-07 16:12:48 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-07 16:12:48 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
+2024-10-07 16:12:48 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-07 16:12:48 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-10-07 16:12:48 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-07 16:12:48 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-07 16:12:48 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-07 16:12:48 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-07 16:12:48 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-07 16:12:49 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-07 16:12:49 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-07 16:12:50 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 15 endpoints beneath base path '/actuator'
+2024-10-07 16:12:50 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 16:12:50 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 16:12:50 [main] INFO  g.la.webserver.WebserverApplication - Started WebserverApplication in 3.686 seconds (process running for 3.894)
+2024-10-07 16:12:50 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as ad8b16ba65fe
+2024-10-07 16:12:50 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-07 16:12:50 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-07 16:12:50 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-07 16:13:37 [http-nio-8080-exec-7] INFO  g.l.w.user.controller.UserController - call getAllUser
+2024-10-07 16:13:46 [http-nio-8080-exec-3] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 413 ms
+2024-10-07 16:13:49 [http-nio-8080-exec-5] INFO  g.l.w.user.controller.UserController - call getAllUser
+2024-10-07 16:13:49 [http-nio-8080-exec-6] INFO  g.l.w.user.controller.UserController - call getAllUser
+2024-10-07 16:13:50 [http-nio-8080-exec-7] INFO  g.l.w.user.controller.UserController - call getAllUser
+2024-10-07 16:13:50 [http-nio-8080-exec-8] INFO  g.l.w.user.controller.UserController - call getAllUser
+2024-10-07 16:13:50 [http-nio-8080-exec-10] INFO  g.l.w.user.controller.UserController - call getAllUser
+2024-10-07 16:32:53 [main] INFO  g.la.webserver.WebserverApplication - Starting WebserverApplication using Java 17.0.12 with PID 35848 (C:\Users\NITRO\OneDrive\Desktop\Korea_webserver\Day1\webserver\webserver\build\classes\java\main started by Phounn in C:\Users\NITRO\OneDrive\Desktop\Korea_webserver\Day1\webserver\webserver)
+2024-10-07 16:32:53 [main] DEBUG g.la.webserver.WebserverApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-07 16:32:53 [main] INFO  g.la.webserver.WebserverApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 16:32:54 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-07 16:32:54 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2024-10-07 16:32:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-07 16:32:54 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 16:32:54 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-07 16:32:54 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 16:32:54 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-07 16:32:54 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1208 ms
+2024-10-07 16:32:54 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-07 16:32:55 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
+2024-10-07 16:32:55 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-07 16:32:55 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-10-07 16:32:55 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-07 16:32:55 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-07 16:32:55 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-07 16:32:55 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-07 16:32:55 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-07 16:32:56 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-07 16:32:56 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-07 16:32:56 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 15 endpoints beneath base path '/actuator'
+2024-10-07 16:32:57 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 16:32:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 16:32:57 [main] INFO  g.la.webserver.WebserverApplication - Started WebserverApplication in 3.781 seconds (process running for 3.983)
+2024-10-07 16:32:57 [registrationTask1] WARN  d.c.b.a.c.r.ApplicationRegistrator - Failed to register application as Application(name=spring-boot-application, managementUrl=http://DESKTOP-H8DKMLU:8080/actuator, healthUrl=http://DESKTOP-H8DKMLU:8080/actuator/health, serviceUrl=http://DESKTOP-H8DKMLU:8080/) at spring-boot-admin ([http://localhost:8000/instances]): I/O error on POST request for "http://localhost:8000/instances": Connection refused: no further information. Further attempts are logged on DEBUG level
+2024-10-07 16:33:01 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-07 16:33:01 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-07 16:33:01 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-07 16:33:07 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as ad8b16ba65fe
+2024-10-07 16:39:28 [main] INFO  g.la.webserver.WebserverApplication - Starting WebserverApplication using Java 17.0.12 with PID 38080 (C:\Users\NITRO\OneDrive\Desktop\Korea_webserver\Day1\webserver\webserver\build\classes\java\main started by Phounn in C:\Users\NITRO\OneDrive\Desktop\Korea_webserver\Day1\webserver\webserver)
+2024-10-07 16:39:28 [main] DEBUG g.la.webserver.WebserverApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-07 16:39:28 [main] INFO  g.la.webserver.WebserverApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 16:39:29 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-07 16:39:29 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces.
+2024-10-07 16:39:29 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-07 16:39:29 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 16:39:29 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-07 16:39:29 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 16:39:29 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-07 16:39:29 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1119 ms
+2024-10-07 16:39:30 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-07 16:39:30 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
+2024-10-07 16:39:30 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-07 16:39:30 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-10-07 16:39:30 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-07 16:39:30 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-07 16:39:30 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-07 16:39:30 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-07 16:39:30 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-07 16:39:31 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-07 16:39:31 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-07 16:39:32 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 15 endpoints beneath base path '/actuator'
+2024-10-07 16:39:32 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 16:39:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 16:39:32 [main] INFO  g.la.webserver.WebserverApplication - Started WebserverApplication in 3.694 seconds (process running for 3.909)
+2024-10-07 16:39:32 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as ad8b16ba65fe
+2024-10-07 16:39:32 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-07 16:39:32 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-07 16:39:32 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-07 16:40:07 [main] INFO  g.la.webserver.WebserverApplication - Starting WebserverApplication using Java 17.0.12 with PID 34528 (C:\Users\NITRO\OneDrive\Desktop\Korea_webserver\Day1\webserver\webserver\build\classes\java\main started by Phounn in C:\Users\NITRO\OneDrive\Desktop\Korea_webserver\Day1\webserver\webserver)
+2024-10-07 16:40:07 [main] DEBUG g.la.webserver.WebserverApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-07 16:40:07 [main] INFO  g.la.webserver.WebserverApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 16:40:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-07 16:40:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 2 JPA repository interfaces.
+2024-10-07 16:40:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-07 16:40:09 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 16:40:09 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-07 16:40:09 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 16:40:09 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-07 16:40:09 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1190 ms
+2024-10-07 16:40:09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-07 16:40:09 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
+2024-10-07 16:40:09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-07 16:40:09 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-10-07 16:40:09 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-07 16:40:09 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-07 16:40:09 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-07 16:40:09 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-07 16:40:09 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-07 16:40:10 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-07 16:40:10 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-07 16:40:11 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 15 endpoints beneath base path '/actuator'
+2024-10-07 16:40:11 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 16:40:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 16:40:11 [main] INFO  g.la.webserver.WebserverApplication - Started WebserverApplication in 3.728 seconds (process running for 3.947)
+2024-10-07 16:40:11 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as ad8b16ba65fe
+2024-10-07 16:40:11 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-07 16:40:11 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-07 16:40:11 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-07 16:40:31 [registrationTask1] WARN  d.c.b.a.c.r.ApplicationRegistrator - Failed to register application as Application(name=spring-boot-application, managementUrl=http://DESKTOP-H8DKMLU:8080/actuator, healthUrl=http://DESKTOP-H8DKMLU:8080/actuator/health, serviceUrl=http://DESKTOP-H8DKMLU:8080/) at spring-boot-admin ([http://localhost:8000/instances]): I/O error on POST request for "http://localhost:8000/instances": Connection refused: no further information. Further attempts are logged on DEBUG level
+2024-10-07 16:48:48 [main] INFO  g.la.webserver.WebserverApplication - Starting WebserverApplication using Java 17.0.12 with PID 32584 (C:\Users\NITRO\OneDrive\Desktop\Korea_webserver\Day1\webserver\webserver\build\classes\java\main started by Phounn in C:\Users\NITRO\OneDrive\Desktop\Korea_webserver\Day1\webserver\webserver)
+2024-10-07 16:48:48 [main] DEBUG g.la.webserver.WebserverApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-07 16:48:48 [main] INFO  g.la.webserver.WebserverApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 16:48:48 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-07 16:48:48 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2024-10-07 16:48:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-07 16:48:49 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 16:48:49 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-07 16:48:49 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 16:48:49 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-07 16:48:49 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1170 ms
+2024-10-07 16:48:49 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-07 16:48:49 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
+2024-10-07 16:48:49 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-07 16:48:49 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2024-10-07 16:48:49 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-07 16:48:49 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-07 16:48:49 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-07 16:48:50 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-07 16:48:50 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-07 16:48:50 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-07 16:48:50 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-07 16:48:51 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 15 endpoints beneath base path '/actuator'
+2024-10-07 16:48:51 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 16:48:51 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 16:48:51 [main] INFO  g.la.webserver.WebserverApplication - Started WebserverApplication in 3.715 seconds (process running for 3.938)
+2024-10-07 16:48:51 [registrationTask1] WARN  d.c.b.a.c.r.ApplicationRegistrator - Failed to register application as Application(name=spring-boot-application, managementUrl=http://DESKTOP-H8DKMLU:8080/actuator, healthUrl=http://DESKTOP-H8DKMLU:8080/actuator/health, serviceUrl=http://DESKTOP-H8DKMLU:8080/) at spring-boot-admin ([http://localhost:8000/instances]): I/O error on POST request for "http://localhost:8000/instances": Connection refused: no further information. Further attempts are logged on DEBUG level
+2024-10-07 16:49:01 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as ad8b16ba65fe
+2024-10-07 16:49:01 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-07 16:49:01 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-07 16:49:01 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-07 16:49:07 [http-nio-8080-exec-4] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 152 ms
+2024-10-07 16:50:49 [http-nio-8080-exec-5] INFO  g.l.w.user.controller.UserController - call getAllUser

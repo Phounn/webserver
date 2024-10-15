@@ -1,0 +1,46 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: 'jdbc:h2:mem:test'
+    #url: 'jdbc:h2:~/test'
+    username: sa
+    password: password1234
+
+  # H2 Console 설정
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  # JPA 설정
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+        format_sql: true
+        show_sql: true
+    open-in-view: true
+
+#Spring boot admin setting
+  boot:
+    admin.client.url: http://localhost:8000
+
+management:
+  endpoints:
+    web.exposure.include: "*"
+
+  endpoint:
+    health:
+      show-details: always
+    info.env.enabled: true
+
+logging:
+  config: classpath:logback-spring.xml
+  file:
+    name: "C:/Users/NITRO/OneDrive/Desktop/Korea_webserver/Day1/webserver/webserver/logs/LaGovApplication.log"
+
+server:
+  port: 5000
