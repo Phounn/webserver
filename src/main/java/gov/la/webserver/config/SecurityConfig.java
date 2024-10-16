@@ -28,10 +28,10 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.csrf(AbstractHttpConfigurer::disable)
-                .httpBasic(Customizer.withDefaults())
-                .formLogin(e -> e.loginPage("/login").successForwardUrl("/main").permitAll())
-                .userDetailsService(userLogService)
+//                .httpBasic(Customizer.withDefaults())
                 .formLogin(Customizer.withDefaults())
+                .formLogin(e -> e.successForwardUrl("/main").permitAll())
+                .userDetailsService(userLogService)
                 .authorizeHttpRequests(authorizeRequest -> {
                     authorizeRequest
                             //for home page
@@ -44,6 +44,8 @@ public class SecurityConfig {
                             //for User API
 //                            .requestMatchers(AntPathRequestMatcher.antMatcher("/api/v1/users/**")).permitAll()
                             .requestMatchers(AntPathRequestMatcher.antMatcher("/api/v1/user-change-logs/**")).hasRole("ADMIN")
+                            //for user anonymous
+                            .requestMatchers(AntPathRequestMatcher.antMatcher("/api/v1/movies/**")).permitAll()
                             .anyRequest().authenticated();
 
                 })

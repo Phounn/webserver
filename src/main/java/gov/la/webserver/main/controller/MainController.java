@@ -24,6 +24,8 @@ public class MainController {
         mv.setViewName("login");
         return mv;
     }
+
+
     @GetMapping("/main/logout")
     public String logout(){
         return "logout";

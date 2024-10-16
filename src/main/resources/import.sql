@@ -7,4 +7,4 @@ INSERT INTO users_user(name, age, nickname, role, account_username, account_pass
 INSERT INTO users_user(name, age, nickname, role, account_username, account_password) values('Peter Parker', 16, 'Spider Man','USER', 'spider_master', '$2a$10$gke/H5d5xI9qzG0r0qcCpe9Ilmictjk7Djmh9Klq9Mt1ZAjYQWJMG');
 
 
-INSERT INTO movies_movie(name, comment) VALUES("Harry", "Good");
+INSERT INTO movies_movie(name, comment) VALUES('Harry Potter', 'Good');

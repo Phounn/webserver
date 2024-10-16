@@ -30,4 +30,16 @@ public class Movie {
         this.comment = comment;
     }
 
+    public Movie(String comment){
+        this.comment = comment;
+    }
+    public void changeComment(String comment){
+        this.comment = comment;
+    }
+
+    public static Movie addComment(final String name, final String comment){
+        return new Movie(name, comment);
+    }
+
+
 }
